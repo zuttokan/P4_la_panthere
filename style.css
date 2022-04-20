@@ -159,9 +159,14 @@ ul {
 }
 .voffset .citation {
   color: #212121;
+  font-size: 20px;
 }
 .voffset .auteur {
   color: #4f4f50;
+  font-size: 20px;
+}
+.row .citation {
+  font-size: 20px;
 }
 .voffset-lg {
   margin-top: 80px;
@@ -433,9 +438,9 @@ h4 {
 .bgc-atomic-tangerine {
   background-color: #f3976c;
 }
-/* .tc-white {
-  color: #f3976c;
-} */
+.tc-white {
+  color: #ffffff;
+}
 .btn-atomic-tangerine {
   background: #f3976c;
   color: #fff;
@@ -445,7 +450,7 @@ h4 {
   color: #fff;
 }
 .ltc-white {
-  color: #fff;
+  color: #ccc;
 }
 .ltc-white:hover {
   color: #ccc;
@@ -467,7 +472,7 @@ h4 {
   background-image: url(img/agence-la-panthere.jpg);
 }
 .bg-presentation {
-  background-image: url(img/image-de-presentation.bmp);
+  background-image: url(img/image-de-presentation.jpg);
 }
 @media (max-width: 1024px) {
   .bloc {
