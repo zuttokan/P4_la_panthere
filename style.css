@@ -206,14 +206,12 @@ ul {
 .navbar .nav {
   padding-top: 2px;
   margin: auto;
-  margin-right: 100px;
   z-index: 1;
 }
 .nav > li {
   float: left;
   margin-top: 4px;
   font-size: 16px;
-  padding: 5px;
 }
 .nav > li a:focus,
 .nav > li a:hover {
