@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 h1 {
-  color: black;
+  color: #000;
 }
 .navbar-brand img {
   height: 40px;
@@ -15,7 +15,6 @@ h1 {
 .col-sm-12 img {
   width: 100px;
 }
-
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -80,14 +79,14 @@ ul {
   right: 0;
 }
 .texture-paper::before {
-  background: url(img/texture-paper.png);
+  background: url(https://zuttokan.github.io/la_panthere/img/texture-paper.png);
   background-size: 280px 280px;
 }
 .b-parallax {
   background-attachment: fixed;
 }
 .d-bloc {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
@@ -105,7 +104,7 @@ ul {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -120,7 +119,7 @@ ul {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
@@ -177,15 +176,6 @@ ul {
 }
 .voffset-lg {
   margin-top: 80px;
-}
-.row-no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-.row.row-no-gutters > [class*=" col-"],
-.row.row-no-gutters > [class^="col-"] {
-  padding-right: 0;
-  padding-left: 0;
 }
 #bloc-1-hero h1 {
   font-size: 32px;
@@ -352,7 +342,6 @@ a[data-lightbox]:hover img {
   color: rgba(0, 0, 0, 0.5);
   background: 0 0;
 }
-
 .btn,
 a,
 h1,
@@ -361,7 +350,7 @@ h3,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #000;
 }
 .container {
   max-width: 1000px;
@@ -400,11 +389,11 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgb(0, 0, 0);
+  color: #000;
 }
 .col-sm-12 {
   color: #000;
-  font-weight: bold;
+  font-weight: 700;
 }
 .med-width-whitespace {
   max-width: 800px;
@@ -412,10 +401,10 @@ h3 {
   box-shadow: 0 0 0 #000;
 }
 h1 {
-  color: rgb(3, 3, 3);
+  color: #030303;
 }
 h4 {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 .icons {
   margin-bottom: 14px;
@@ -435,10 +424,6 @@ h4 {
   background-color: rgba(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
 }
-.bold-link {
-  font-weight: 900;
-  text-decoration: underline;
-}
 .bgc-white {
   background-color: #fff;
 }
@@ -449,7 +434,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: white;
+  color: #fff;
 }
 .btn-atomic-tangerine {
   background: #364577;
@@ -459,30 +444,18 @@ h4 {
   background: #c27956;
   color: #fff;
 }
-.ltc-white {
-  color: white;
-}
-.ltc-white:hover {
-  color: white;
-}
-.ltc-atomic-tangerine {
-  color: #f3976c;
-}
-.ltc-atomic-tangerine:hover {
-  color: #c27956;
-}
 .icon-dark-slate-blue {
   color: #364577;
   border-color: #364577;
 }
 .bg-lines-h2-bg {
-  background-image: url(img/lines-h2-bg.png);
+  background-image: url(https://zuttokan.github.io/la_panthere/img/lines-h2-bg.png);
 }
 .bg-banniere {
-  background-image: url(img/agence-la-panthere.jpg);
+  background-image: url(https://zuttokan.github.io/la_panthere/img/agence-la-panthere.jpg);
 }
 .bg-presentation {
-  background-image: url(img/image-de-presentation.bmp);
+  background-image: url(https://zuttokan.github.io/la_panthere/img/image-de-presentation.bmp);
 }
 @media (max-width: 1024px) {
   .bloc {
@@ -556,7 +529,7 @@ h4 {
     background: rgba(0, 0, 0, 0.8);
   }
   #hero-bloc .navbar .nav a {
-    color: rgb(255, 255, 255);
+    color: #fff;
   }
   .hero {
     padding: 50px 0;
