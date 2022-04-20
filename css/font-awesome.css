@@ -14,6 +14,7 @@
       format("svg");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 .fa {
   display: inline-block;
