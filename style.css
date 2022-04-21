@@ -6,9 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-h1 {
-  color: #000;
-}
+
 .navbar-brand img {
   height: 40px;
 }
@@ -104,8 +102,10 @@ ul {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
 }
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -119,16 +119,16 @@ ul {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
 }
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
 }
 .l-bloc button:hover {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
 }
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -183,6 +183,9 @@ ul {
 .navbar {
   margin-bottom: 0;
   z-index: 1;
+}
+.form-group {
+  padding: 3px;
 }
 .navbar-brand {
   height: auto;
@@ -269,8 +272,9 @@ ul {
   margin-top: 10px;
   margin-bottom: 40px;
 }
-.btn {
+.btn .chevron {
   margin: 0 5px 5px 0;
+  color: #000;
 }
 .btn-d,
 .btn-d:focus,
@@ -359,7 +363,7 @@ p {
   font-size: 38px;
 }
 p {
-  font-size: 15px;
+  font-size: 18px;
 }
 .tight-width-whitespace {
   max-width: 600px;
@@ -382,11 +386,13 @@ p {
   margin: auto auto auto auto;
 }
 h2 {
-  font-size: 22px;
+  font-size: 32px;
   line-height: 1.4em;
+  color: #364577;
+  font-weight: bold;
 }
 h3 {
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
@@ -421,7 +427,7 @@ h4 {
   margin-top: 50px;
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgb(165, 147, 99);
   padding: 40px 40px 40px 40px;
 }
 .bgc-white {
@@ -434,14 +440,14 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .btn-atomic-tangerine {
-  background: #364577;
+  background: #f3976c;
   color: #fff;
 }
 .btn-atomic-tangerine:hover {
-  background: #c27956;
+  background: #364577;
   color: #fff;
 }
 .icon-dark-slate-blue {
@@ -455,7 +461,7 @@ h4 {
   background-image: url(https://zuttokan.github.io/la_panthere/img/agence-la-panthere.jpg);
 }
 .bg-presentation {
-  background-image: url(https://zuttokan.github.io/la_panthere/img/image-de-presentation.bmp);
+  background-image: url(https://zuttokan.github.io/la_panthere/img/image-de-presentation.jpg);
 }
 @media (max-width: 1024px) {
   .bloc {
