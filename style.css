@@ -520,6 +520,11 @@ p {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .col-sm-30 {
+    display: flex;
+     justify-content: center;
+      flex-direction: row;
+  }
   .b-parallax {
     background-attachment: scroll;
   }
