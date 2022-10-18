@@ -11,7 +11,6 @@
 - Assurer l'accessibilité d'un site web
 
 ### Pour accéder à l'interface du site:
-
 https://zuttokan.github.io/la_panthere/
 
 ## Screen version Desktop
