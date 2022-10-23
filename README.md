@@ -1,6 +1,6 @@
 # <a  href="https://openclassrooms.com/fr/paths/717-developpeur-web"  title="openclassrooms"><img  src="https://upload.wikimedia.org/wikipedia/fr/0/0d/Logo_OpenClassrooms.png"  alt="openclassrooms"  width="35px"  height="31px"></a> Projet 4 - Openclassrooms - DEVELOPPEUR WEB
 
-# Optimiser un site web existant
+# Optimiser un site web existant / SEO
 
 ### Compétences
 
