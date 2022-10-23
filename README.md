@@ -14,5 +14,6 @@
 https://zuttokan.github.io/P4_la_panthere/
 
 ## Screen version Desktop
+![screencapture-gtmetrix-reports-zuttokan-github-io-DjgqHoMB-2022-04-19-15_52_50](https://user-images.githubusercontent.com/100352779/197407201-58ab0b72-416d-4f90-868a-fc2a2bdaef4e.png)
 
 ![screencapture-zuttokan-github-io-la-panthere-2022-10-17-14_58_23](https://user-images.githubusercontent.com/100352779/196197017-a335d90b-69eb-44fd-81c8-ed2b777dfba2.png)
